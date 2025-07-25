@@ -1,0 +1,117 @@
+@media only screen and (max-width: 390px) {
+  .section1 {
+    background-image: none;
+    background-image: url("./images/mobile_phone16pro.jpg");
+    background-position: center;
+    width: 100%;
+    height: 500px;
+  }
+  .section1-container h1 {
+    color: #f5f5f7;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    margin-top: 270px;
+  }
+  .section1-container p {
+    color: #f5f5f7;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    margin-top: -16px;
+  }
+  .tablet_header {
+    color: #1d1d1f;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  .section2 {
+    background-image: none;
+    background-image: url("./images/mobile_iphone16.jpg");
+    background-position: center;
+    width: 100%;
+    height: 500px;
+  }
+
+  .section2-container h1 {
+    color: #f5f5f7;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+  }
+  .section2-container p {
+    color: #f5f5f7;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    margin-top: -16px;
+  }
+  .tablet_airpods_h1 {
+    margin-top: 300px;
+  }
+  .article2_container {
+    margin-top: 0px;
+  }
+  .ipad_article1,
+  .section5,
+  .section6 {
+    display: inline;
+    margin: auto;
+  }
+  .tablet_watch {
+    margin-left: 12px;
+    margin-bottom: 12px;
+  }
+  .article4 {
+    margin-left: 12px;
+  }
+  .article6 {
+    margin-top: 12px;
+    margin-left: 12px;
+  }
+  .movie4,
+  .movie5,
+  .movie6,
+  .movie7,
+  .movie8,
+  .movie9,
+  .movie10,
+  .movie11,
+  .movie12,
+  .movie13,
+  .tablet_header {
+    display: none;
+  }
+  .section7_movie {
+    overflow-y: hidden;
+  }
+  .mobile_movie {
+    display: inline;
+    width: 100%;
+    height: 495px;
+  }
+  .mobile_header {
+    display: flex;
+    justify-content: center;
+    color: #1d1d1f;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+  }
+}
