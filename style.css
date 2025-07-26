@@ -562,6 +562,17 @@ nav {
   background-color: gray;
   border-radius: 50%;
 }
+
+body:has(#movie1:target) .dot_container .dot:nth-child(1) {
+  background-color: black;
+}
+body:has(#movie2:target) .dot_container .dot:nth-child(2) {
+  background-color: black;
+}
+body:has(#movie3:target) .dot_container .dot:nth-child(3) {
+  background-color: black;
+}
+
 .tablet_dot_container {
   display: none;
 }
@@ -690,7 +701,7 @@ nav {
 .bottom4,
 .bottom5 {
   animation: slideshow;
-  animation-duration: 10s;
+  animation-duration: 15s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
@@ -1023,5 +1034,35 @@ nav {
     height: 8px;
     background-color: gray;
     border-radius: 50%;
+  }
+  body:has(#movie4:target) .tablet_dot_container .tablet_dot:nth-child(1) {
+    background-color: black;
+  }
+  body:has(#movie5:target) .tablet_dot_container .tablet_dot:nth-child(2) {
+    background-color: black;
+  }
+  body:has(#movie6:target) .tablet_dot_container .tablet_dot:nth-child(3) {
+    background-color: black;
+  }
+  body:has(#movie7:target) .tablet_dot_container .tablet_dot:nth-child(4) {
+    background-color: black;
+  }
+  body:has(#movie8:target) .tablet_dot_container .tablet_dot:nth-child(5) {
+    background-color: black;
+  }
+  body:has(#movie9:target) .tablet_dot_container .tablet_dot:nth-child(6) {
+    background-color: black;
+  }
+  body:has(#movie10:target) .tablet_dot_container .tablet_dot:nth-child(7) {
+    background-color: black;
+  }
+  body:has(#movie11:target) .tablet_dot_container .tablet_dot:nth-child(8) {
+    background-color: black;
+  }
+  body:has(#movie12:target) .tablet_dot_container .tablet_dot:nth-child(9) {
+    background-color: black;
+  }
+  body:has(#movie13:target) .tablet_dot_container .tablet_dot:nth-child(10) {
+    background-color: black;
   }
 }
